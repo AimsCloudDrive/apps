@@ -1,51 +1,19 @@
 {
-  "name": "apps",
-  "version": "0.1.0",
   "private": true,
+  "author": "AimsCloudDrive <i79401045@126.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^6.4.5",
-    "@testing-library/react": "^15.0.7",
-    "@testing-library/user-event": "^14.5.2",
-    "@types/eslint": "latest",
-    "@types/node": "^20.13.0",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-redux": "latest",
-    "react-router-dom": "latest",
-    "react-scripts": "latest",
-    "redux": "latest",
-    "web-vitals": "^4.0.1"
+    "umi": "^4.2.8"
   },
   "devDependencies": {
-    "antd": "latest",
-    "axios": "latest",
-    "less": "latest",
-    "less-loader": "^12.2.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
   }
 }
