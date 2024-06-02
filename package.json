@@ -1,23 +1,51 @@
 {
-  "name": "vite-template",
+  "name": "apps",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
-    "vue": "^3.4.27"
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^15.0.7",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/eslint": "latest",
+    "@types/node": "^20.13.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "redux": "latest",
+    "web-vitals": "^4.0.1"
   },
   "devDependencies": {
-    "@types/node": "^20.12.12",
-    "@vitejs/plugin-vue": "^4.6.2",
-    "typescript": "^5.4.5",
-    "vite": "^4.5.3",
-    "vue-router": "^4.3.2",
-    "vue-tsc": "^1.8.27",
-    "vuex": "^4.1.0"
+    "antd": "latest",
+    "axios": "latest",
+    "less": "latest",
+    "less-loader": "^12.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
